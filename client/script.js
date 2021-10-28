@@ -135,7 +135,7 @@ document.querySelector('#repeat-button').addEventListener('click', repeatMyParam
 
 // CODE HERE
 const getRequest = () => {
-    axios.get('http://localhost:3000/query-test/?name=mason/?month=october')
+    axios.get('http://localhost:3000/query-test/?name=mason&?name=cid')
     .then(res => {
         console.log(res.data);
     })
